@@ -1,5 +1,5 @@
 application:
-  title: Meteor Address Book
+  title: Example application
   theme: bootswatch-flatly
   roles:
     - admin
