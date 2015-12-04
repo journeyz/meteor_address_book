@@ -87,12 +87,9 @@ application:
                 query_params: []
                 fields:
                   - name: profile.name
-                    title: Full Name
+                    title: Name
                   - name: profile.email
                     title: E-mail
-                    type: email
-                  - name: profile.mobile_phone
-                    title: Mobile Phone
                   - name: roles
                     title: Role
                 insert_route: admin.users.insert
@@ -117,39 +114,10 @@ application:
                     query_params: []
                     fields:
                       - name: profile.name
-                        title: Full Name
-                      - name: profile.phonetic_name
-                        title: Phonetic Name
-                      - name: profile.postal_code
-                        title: Postal Code
-                      - name: profile.prefecture
-                        title: Prefecture/State
-                      - name: profile.city
-                        title: City
-                      - name: profile.address1
-                        title: Address 1
-                      - name: profile.address2
-                        title: Address 2
+                        title: Name
                       - name: profile.email
                         title: E-mail
                         type: email
-                      - name: profile.email2
-                        title: E-mail 2
-                        type: email
-                      - name: profile.email3
-                        title: E-mail 3
-                        type: email
-                      - name: profile.phone
-                        title: Phone
-                        type: email
-                      - name: profile.mobile_phone
-                        title: Mobile Phone
-                      - name: profile.fax
-                        title: Fax
-                      - name: profile.organization
-                        title: Organization
-                      - name: profile.note
-                        title: Note
                       - name: roles
                         title: Role
                     close_route: admin.users
@@ -166,10 +134,8 @@ application:
                     query_params: []
                     fields:
                       - name: profile.name
-                        title: Full Name
+                        title: Name
                         required: true
-                      - name: profile.phonetic_name
-                        title: Phonetic Name
                       - name: profile.email
                         title: E-mail
                         type: email
@@ -178,32 +144,6 @@ application:
                         title: Password
                         input: password
                         required: true
-                      - name: profile.postal_code
-                        title: Postal Code
-                      - name: profile.prefecture
-                        title: Prefecture/State
-                      - name: profile.city
-                        title: City
-                      - name: profile.address1
-                        title: Address 1
-                      - name: profile.address2
-                        title: Address 2
-                      - name: profile.email2
-                        title: E-mail 2
-                        type: email
-                      - name: profile.email3
-                        title: E-mail 3
-                        type: email
-                      - name: profile.phone
-                        title: Phone
-                      - name: profile.mobile_phone
-                        title: Mobile Phone
-                      - name: profile.fax
-                        title: Fax
-                      - name: profile.organization
-                        title: Organization
-                      - name: profile.note
-                        title: Note
               - name: edit
                 route_params:
                   - userId
@@ -218,40 +158,12 @@ application:
                     query_params: []
                     fields:
                       - name: profile.name
-                        title: Full Name
+                        title: Name
                         required: true
-                      - name: profile.phonetic_name
-                        title: Phonetic Name
                       - name: profile.email
                         title: E-mail
                         type: email
                         required: true
-                      - name: profile.postal_code
-                        title: Postal Code
-                      - name: profile.prefecture
-                        title: Prefecture/State
-                      - name: profile.city
-                        title: City
-                      - name: profile.address1
-                        title: Address 1
-                      - name: profile.address2
-                        title: Address 2
-                      - name: profile.email2
-                        title: E-mail 2
-                        type: email
-                      - name: profile.email3
-                        title: E-mail 3
-                        type: email
-                      - name: profile.phone
-                        title: Phone
-                      - name: profile.mobile_phone
-                        title: Mobile Phone
-                      - name: profile.fax
-                        title: Fax
-                      - name: profile.organization
-                        title: Organization
-                      - name: profile.note
-                        title: Note
                       - name: roles
                         type: array
                         title: Role
@@ -288,38 +200,10 @@ application:
                   - name: profile.name
                     title: Name
                     required: true
-                  - name: profile.phonetic_name
-                    title: Phonetic Name
                   - name: profile.email
                     title: E-mail
                     type: email
                     required: true
-                  - name: profile.postal_code
-                    title: Postal Code
-                  - name: profile.prefecture
-                    title: Prefecture/State
-                  - name: profile.city
-                    title: City
-                  - name: profile.address1
-                    title: Address 1
-                  - name: profile.address2
-                    title: Address 2
-                  - name: profile.email2
-                    title: E-mail 2
-                    type: email
-                  - name: profile.email3
-                    title: E-mail 3
-                    type: email
-                  - name: profile.phone
-                    title: Phone
-                  - name: profile.mobile_phone
-                    title: Mobile Phone
-                  - name: profile.fax
-                    title: Fax
-                  - name: profile.organization
-                    title: Organization
-                  - name: profile.note
-                    title: Note
                   - name: profile.facebook
                     title: Facebook URL
                   - name: profile.google
